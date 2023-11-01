@@ -24,7 +24,7 @@ global = {
 
 rightHandUpper = \relative {
   \set Score.tempoHideNote = ##t
-  \textMark \markup \tempo-markup Andante #2 #0 80
+  \textMark \markup \tempo-markup Allegro #2 #0 80
   \tempo 4 = 80
   <b' ds>4~( \tuplet 5/4 { q16 <b e>-. <b ds>-. q-. <ds gs>-. } |
   <gs, cs>2) |
@@ -49,6 +49,9 @@ rightHandUpper = \relative {
   a4~(^\mf \tuplet 5/4 { a16 b a a cs } |
   cs4 b) |
   b4~ b8 a |
+  % SrcB: The lack of accidental for the E in the last of chord of the measure
+  % is likely an editorial omission, since otherwise there is an unpleasant
+  % clash with the bass (octave E-naturals).
   \oneVoice <a, b es a>8 <a b fs' a>~ q <gs b e gs> |
   \voiceOne b'4~( \tuplet 5/4 { b16 cs b b fs' }
   <<
