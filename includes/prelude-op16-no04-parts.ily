@@ -82,7 +82,7 @@ leftHand = \relative {
 
 dynamics = {
   \override DynamicTextSpanner.style = #'none
-  \tag layout { s2.^\pSotoVoce } \tag midi { s2.\p } |
+  \tag layout { s2.^\pSottoVoce } \tag midi { s2.\p } |
   s2. * 5 |
   s4 s2\cresc |
   s2\mf s4\dim |
