@@ -60,4 +60,4 @@ rit = \markup \large \italic "rit."
 accel = \markup \large \italic "accel."
 aTempo = \markup \large \italic "a tempo"
 cantabile = \markup \large \italic "cantabile"
-pSotoVoce = \markup { \dynamic p \large "soto voce" }
+pSottoVoce = \markup { \dynamic p \large "sotto voce" }

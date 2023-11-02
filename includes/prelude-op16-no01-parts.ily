@@ -95,7 +95,7 @@ rightHandUpper = \relative {
   fs'4( gs' b, |
   as4 cs' e, |
   ds4 fs' a, |
-  fs4 b' e,) |
+  gs4 b' e,) |
   g,4( cs' fs,, |
   as'4 e, g' |
   
